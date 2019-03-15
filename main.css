@@ -6,6 +6,41 @@ body {
   padding: 30px 20px;
 }
 
+/* -- Navigation Bar Menu --- */
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  overflow: auto;
+}
+
+#navbar li { 
+  float: left;
+  font-size: 18px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+
+#navbar li a:hover {
+	background-color: #27B0BD;
+}
+/* -- End of Navigation Bar Menu --- */
+
+
+
 h1 {
   padding: 20px 0px 10px 0px;
+}
+
+.container {
+  border: 20px solid aqua;
+  
+  
+ 
+
 }
