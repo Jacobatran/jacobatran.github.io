@@ -1,9 +1,11 @@
 body {
-  margin: 0 auto;
+  margin: 30px auto;
+  width: 85%;
   max-width: 50em;
   font-family: 'Space Mono', monospace, sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
+  text-align: center;
 }
 
 /* -- Navigation Bar Menu --- */
@@ -37,10 +39,35 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
-.container {
+.container-portfolio {
   border: 20px solid aqua;
+  margin-top: 60px;
+  padding: 40px;
+}
   
-  
+ .container-statement {
+   text-align: justify;
  
 
 }
+
+
+
+/* Start of Interactive Art  */
+/* * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+} */
+
+/* Clearfix (clear floats) */
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+/* End of Interactive Art  */
